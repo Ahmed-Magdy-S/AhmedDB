@@ -5,10 +5,10 @@ import AhmedDB.file.Page;
 
 public class SetStringRecord extends LogRecord {
 
-    private int transactionNumber;
-    private int offset;
-    private String stringValue;
-    private LogicalBlock logicalBlock;
+    private final int transactionNumber;
+    private final int offset;
+    private final String stringValue;
+    private final LogicalBlock logicalBlock;
 
     /**
      * It determines the offset of each value within the page and extracts them,
@@ -29,8 +29,6 @@ public class SetStringRecord extends LogRecord {
         offset = page.getInt(offsetPosition);
         int valuePosition = offsetPosition + Integer.BYTES;
         stringValue = page.getString(valuePosition);
-
-
     }
 
     /**
@@ -94,4 +92,10 @@ public class SetStringRecord extends LogRecord {
     @Override
     public void undo(int transactionNumber) {
     }
+
+    @Override
+    public String toString() {
+        return "<SETSTRING " + transactionNumber + " " + logicalBlock.getNumber() + " " + offset + " " + stringValue + ">";
+    }
+
 }
