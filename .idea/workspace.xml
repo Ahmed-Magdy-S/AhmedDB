@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="212eb223-3533-49bd-b561-9db2114ab2be" name="Changes" comment="init project" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="0f51925d-f2b6-4605-a61e-88b0d686aad8" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MyhnrxDLWBkHoaQsfVwmoxXNP3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="AhmedDB.log" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="AhmedDB.buffer" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AhmedDB.Main" />
+      <module name="AhmedDB.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AhmedDB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="212eb223-3533-49bd-b561-9db2114ab2be" name="Changes" comment="" />
+      <created>1678745901905</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678745901905</updated>
+      <workItem from="1680435088887" duration="1000" />
+      <workItem from="1680435115624" duration="1084000" />
+    </task>
+    <task id="LOCAL؜-٠٠٠٠١" summary="add disk and file management classes">
+      <created>1679011794450</created>
+      <option name="number" value="٠٠٠٠١" />
+      <option name="presentableId" value="LOCAL؜-٠٠٠٠١" />
+      <option name="project" value="LOCAL؜" />
+      <updated>1679011794450</updated>
+    </task>
+    <task id="LOCAL؜-٠٠٠٠٢" summary="add some types and tracking variables">
+      <created>1679136505435</created>
+      <option name="number" value="٠٠٠٠٢" />
+      <option name="presentableId" value="LOCAL؜-٠٠٠٠٢" />
+      <option name="project" value="LOCAL؜" />
+      <updated>1679136505435</updated>
+    </task>
+    <task id="LOCAL؜-٠٠٠٠٣" summary="refactor some documentation comments">
+      <created>1679207271314</created>
+      <option name="number" value="٠٠٠٠٣" />
+      <option name="presentableId" value="LOCAL؜-٠٠٠٠٣" />
+      <option name="project" value="LOCAL؜" />
+      <updated>1679207271314</updated>
+    </task>
+    <task id="LOCAL؜-٠٠٠٠٤" summary="create LogManager class">
+      <created>1679207316455</created>
+      <option name="number" value="٠٠٠٠٤" />
+      <option name="presentableId" value="LOCAL؜-٠٠٠٠٤" />
+      <option name="project" value="LOCAL؜" />
+      <updated>1679207316455</updated>
+    </task>
+    <task id="LOCAL؜-٠٠٠٠٥" summary="improve docs">
+      <created>1679210196830</created>
+      <option name="number" value="٠٠٠٠٥" />
+      <option name="presentableId" value="LOCAL؜-٠٠٠٠٥" />
+      <option name="project" value="LOCAL؜" />
+      <updated>1679210196830</updated>
+    </task>
+    <task id="LOCAL؜-٠٠٠٠٦" summary="adding LogIterator Class">
+      <created>1679210227768</created>
+      <option name="number" value="٠٠٠٠٦" />
+      <option name="presentableId" value="LOCAL؜-٠٠٠٠٦" />
+      <option name="project" value="LOCAL؜" />
+      <updated>1679210227768</updated>
+    </task>
+    <task id="LOCAL؜-٠٠٠٠٧" summary="Add README.md">
+      <created>1679211527931</created>
+      <option name="number" value="٠٠٠٠٧" />
+      <option name="presentableId" value="LOCAL؜-٠٠٠٠٧" />
+      <option name="project" value="LOCAL؜" />
+      <updated>1679211527931</updated>
+    </task>
+    <task id="LOCAL؜-٠٠٠٠٨" summary="Update README.md">
+      <created>1679212561871</created>
+      <option name="number" value="٠٠٠٠٨" />
+      <option name="presentableId" value="LOCAL؜-٠٠٠٠٨" />
+      <option name="project" value="LOCAL؜" />
+      <updated>1679212561871</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update README.md">
+      <created>1679410225380</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679410225380</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update buffer classes">
+      <created>1679422483010</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679422483010</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update README.md">
+      <created>1679422566395</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679422566395</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update docs comments">
+      <created>1679925929864</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679925929864</updated>
+    </task>
+    <task id="LOCAL-00013" summary="init log record classes">
+      <created>1679926001535</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679926001535</updated>
+    </task>
+    <task id="LOCAL-00014" summary="init RecoveryManager class">
+      <created>1679926028774</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1679926028774</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update README.md">
+      <created>1679926467693</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1679926467693</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update SetStringRecord class">
+      <created>1680011449014</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680011449014</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update access modifier">
+      <created>1680433191793</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1680433191793</updated>
+    </task>
+    <task id="LOCAL-00018" summary="added recovery and rollback algorithms">
+      <created>1680433261748</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1680433261748</updated>
+    </task>
+    <task id="LOCAL-00019" summary="init project">
+      <created>1680434352257</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1680434352257</updated>
+    </task>
+    <task id="LOCAL-00020" summary="added disk and file management classes">
+      <created>1680434433052</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1680434433053</updated>
+    </task>
+    <task id="LOCAL-00021" summary="init project">
+      <created>1680434736954</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1680434736954</updated>
+    </task>
+    <task id="LOCAL-00022" summary="init project">
+      <created>1680434848701</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1680434848701</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="add disk and file management classes" />
+    <MESSAGE value="add some types and traking variables" />
+    <MESSAGE value="add some types and tracking variables" />
+    <MESSAGE value="refactor some documentation comments" />
+    <MESSAGE value="create LogManager class" />
+    <MESSAGE value="improve docs" />
+    <MESSAGE value="adding LogIterator Class" />
+    <MESSAGE value="Add README.md" />
+    <MESSAGE value="Update README.md" />
+    <MESSAGE value="update buffer classes" />
+    <MESSAGE value="update docs comments" />
+    <MESSAGE value="init log record classes" />
+    <MESSAGE value="init RecoveryManager class" />
+    <MESSAGE value="update README.md" />
+    <MESSAGE value="update SetStringRecord class" />
+    <MESSAGE value="update access modifier" />
+    <MESSAGE value="added recovery and rollback algorithms" />
+    <MESSAGE value="added disk and file management classes" />
+    <MESSAGE value="init project" />
+    <option name="LAST_COMMIT_MESSAGE" value="init project" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
