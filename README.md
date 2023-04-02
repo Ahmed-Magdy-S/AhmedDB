@@ -22,6 +22,7 @@ Its implementation is similar to SimpleDb which created by Edward Sciore in its 
 - [x] Transaction Management
   1. Recovery Management
      - Added log record classes for helping in recovery management by recording transaction processes.
+     - Added RecoveryManager class to make different operations (e.g: commit, rollback, recover, etc...).
   2. Concurrency Management
 - [ ] Record Management
 - [ ] Metadata Management
