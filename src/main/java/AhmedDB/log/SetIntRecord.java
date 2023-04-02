@@ -4,7 +4,7 @@ import AhmedDB.file.LogicalBlock;
 import AhmedDB.file.Page;
 
 
-public class SetIntRecord extends LogRecord {
+public class SetIntRecord extends LogRecord implements Undoable {
     private final int transactionNumber;
     private final int offset;
     private final int value;
@@ -38,11 +38,6 @@ public class SetIntRecord extends LogRecord {
     @Override
     public int getTransactionNumber() {
         return transactionNumber;
-    }
-
-    @Override
-    public void undo(int transactionNumber) {
-
     }
     /**
      * A static method to write a setInt record to the log.
@@ -92,5 +87,10 @@ public class SetIntRecord extends LogRecord {
     @Override
     public String toString() {
         return "<SETINT " + transactionNumber + " " + logicalBlock.getNumber() + " " + offset + " " + value + ">";
+    }
+
+    @Override
+    public void undo(int transactionNumber) {
+
     }
 }

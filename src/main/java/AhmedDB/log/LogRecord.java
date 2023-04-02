@@ -26,13 +26,6 @@ public abstract class LogRecord {
      */
     public abstract int getTransactionNumber();
 
-    /**
-     * restores any changes stored in that record.
-     * @param transactionNumber the transaction ID number that will be restored.
-     */
-    public abstract void undo(int transactionNumber);
-
-
     public static LogRecord createLogRecord (byte[] bytes){
         Page page = new Page(bytes);
         int operatorNum = page.getInt(0);

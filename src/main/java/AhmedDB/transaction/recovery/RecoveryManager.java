@@ -72,7 +72,7 @@ public class RecoveryManager {
            LogRecord logRecord = LogRecord.createLogRecord(bytes); // return a specific logRecord
            if (logRecord != null && logRecord.getTransactionNumber() == transactionNumber){
                if (logRecord.getRecordOperatorNumber() == LogOperator.START.value) return;
-               logRecord.undo(transactionNumber);
+               ((Undoable)logRecord).undo(transactionNumber);
            }
        }
    }
@@ -88,7 +88,7 @@ public class RecoveryManager {
            if (logRecord.getRecordOperatorNumber() == LogOperator.COMMIT.value || logRecord.getRecordOperatorNumber() == LogOperator.ROLLBACK.value){
                finishedTransactions.add(logRecord.getTransactionNumber());
            }
-           else if (!finishedTransactions.contains(logRecord.getTransactionNumber())) logRecord.undo(transactionNumber);
+           else if (!finishedTransactions.contains(logRecord.getTransactionNumber())) ((Undoable)logRecord).undo(transactionNumber);
        }
    }
 

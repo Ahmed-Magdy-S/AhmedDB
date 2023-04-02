@@ -3,22 +3,35 @@ package AhmedDB.log;
 import AhmedDB.file.Page;
 
 public class RollBackRecord extends LogRecord {
-    public RollBackRecord(Page page) {
 
+    private final int transactionNumber;
+
+    public RollBackRecord(Page page) {
+        transactionNumber = page.getInt(Integer.BYTES);
     }
 
     @Override
     public int getRecordOperatorNumber() {
-        return 0;
+        return LogOperator.ROLLBACK.value;
     }
 
     @Override
     public int getTransactionNumber() {
-        return 0;
+        return transactionNumber;
     }
 
     @Override
-    public void undo(int transactionNumber) {
-
+    public String toString() {
+        return "<ROLLBACK " + transactionNumber + ">";
     }
+
+    public static int writeToLog(LogManager logManager, int transactionNumber) {
+        byte[] recordBytes = new byte[2*Integer.BYTES];
+        Page p = new Page(recordBytes);
+        p.setInt(0, LogOperator.ROLLBACK.value);
+        p.setInt(Integer.BYTES, transactionNumber);
+        return logManager.append(recordBytes);
+    }
+
+
 }

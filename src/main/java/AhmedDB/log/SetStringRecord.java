@@ -3,7 +3,7 @@ package AhmedDB.log;
 import AhmedDB.file.LogicalBlock;
 import AhmedDB.file.Page;
 
-public class SetStringRecord extends LogRecord {
+public class SetStringRecord extends LogRecord implements Undoable {
 
     private final int transactionNumber;
     private final int offset;
