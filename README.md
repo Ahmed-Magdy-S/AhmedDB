@@ -11,7 +11,8 @@ Its implementation is similar to SimpleDb which created by Edward Sciore in its 
 - Structurally, it contains the same basic components as a commercial database management system, with similar APIs.
 
 
-### Implementation Roadmap (The project is still work in progress)
+### Implementation Roadmap 
+****The project is still work in progress***
 - [x] Disk and File Management
   - Added FileManager class (handling the actual interaction with the OS file system).
   - Added LogicalBlock class (handling block numbers in a specific disk file).
